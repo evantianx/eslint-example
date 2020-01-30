@@ -1,0 +1,9 @@
+{
+  "name": "eslint-example",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
