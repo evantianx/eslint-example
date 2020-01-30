@@ -1,4 +1,15 @@
 parserOptions:
   ecmaVersion: 6
+
 env:
-  node: true
+  browser: true
+
+# if you want ignore a11y, uncomment the second rule
+extends:
+  - airbnb-base
+  # - airbnb/rules/react
+  - airbnb/hooks
+
+# some frameworks can automatically inject react in JSX files
+rules:
+  react/react-in-jsx-scope: off
