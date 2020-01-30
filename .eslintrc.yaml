@@ -1,4 +1,15 @@
 parserOptions:
   ecmaVersion: 6
+
 env:
   node: true
+
+extends:
+  - airbnb-base
+
+rules:
+  no-console:
+    - error
+    - allow:
+        - warn
+        - error
